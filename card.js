@@ -40,6 +40,16 @@ const label = {
   card: chalk.white.bold('       Card:'),
 };
 
+const bunny = `
+                               ${chalk.red('_')}
+                             ${chalk.red('_(_)_')}
+                            ${chalk.red('(_)')}${chalk.white('@')}${chalk.red('(_)')}
+                 ${chalk.white.bold('(\\/)')}        ${chalk.green('/')}${chalk.red('(_)')}
+                 ${chalk.white.bold('(..)')}        ${chalk.green('|')}
+               ${chalk.white.bold('*(\")(\")')}     ${chalk.green('\\\\|//')}
+          ${chalk.green.bold('^^^^^^^^^^^^^^^^^^^^^^^^^^^^^')}
+`;
+
 const me = boxen(
   [
     `${data.name}`,
@@ -54,6 +64,7 @@ const me = boxen(
     `${label.card}  ${data.npx}`,
     ``,
     `${chalk.italic('                  I make stuff!')}`,
+    `${bunny}`,
   ]
     .join('\n'),
   {
