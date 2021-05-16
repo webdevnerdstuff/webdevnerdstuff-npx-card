@@ -8,3 +8,5 @@
 ```bash
 npx webdevnerdstuff
 ```
+
+<p align="center"><img src="webdevnerdstuff-npx-card.jpg"></p>
