@@ -26,7 +26,7 @@ const data = {
   work: `${chalk.white(`${title}`)}`,
   email: `${chalk.white(`${email}`)}`,
   github: chalk.hex('#999')('https://github.com/') + chalk.hex('#2bb71d')(`${github}`),
-  patreon: chalk.hex('#999')('https://patreon.com/') + chalk.hex('#f96854')(`${patreon}`),
+  patreon: chalk.hex('#999')('https://patreon.com/') + chalk.hex('#ff5370')(`${patreon}`),
   web: chalk.hex('#ffb46a')(`${webpage}`),
   npx: chalk.hex('#ff25d9')('npx') + ' ' + chalk.white(`${npxCardHandle}`),
 };
