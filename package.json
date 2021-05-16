@@ -1,6 +1,6 @@
 {
   "name": "webdevnerdstuff",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "This is my business card",
   "private": false,
   "main": "card.js",
