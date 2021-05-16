@@ -1,0 +1,37 @@
+{
+  "name": "webdevnerdstuff",
+  "version": "1.0.0",
+  "description": "This is my business card",
+  "private": false,
+  "main": "card.js",
+  "bin": "./card.js",
+  "scripts": {
+    "start": "node card.js"
+  },
+  "author": "WebDevNerdStuff & Bunnies... lots and lots of bunnies! <webdevnerdstuff@gmail.com> (https://webdevnerdstuff.com)",
+  "funding": [
+    {
+      "type": "patreon",
+      "url": "https://www.patreon.com/WebDevNerdStuff"
+    }
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/webdevnerdstuff/webdevnerdstuff-npx-card.git"
+  },
+  "keywords": [
+    "webdevnerdstuff",
+    "business card",
+    "developer",
+    "amazon smile redirect",
+    "Vue Easter Egg Trigger",
+    "Neon Bunny VS Code Theme",
+    "bunnies"
+  ],
+  "dependencies": {
+    "boxen": "^5.0.0",
+    "chalk": "^4.1.0",
+    "clear": "^0.1.0"
+  }
+}
